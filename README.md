@@ -17,12 +17,6 @@ Page Object Model (POM) is used to  make the code more readable, maintainable, a
 
 ###
 
-##nosetests testcases/checkbox_page_test.py --with-html --html-file=nosetestsnew.html
-
-#nosetests -s -v --nologcapture -a group=smoke all_tests.py
-
-#nosetests -s -v --nologcapture -a group=smoke testcases/filter_by_Price_test.py testcases/filter_by_BodyStyle_test.py
-
 
 #nosetests -s -v --nologcapture -a group=smoke testcases/filter_by_Price_test.py testcases/filter_by_BodyStyle_test.py --with-html --html-file=nosetestsnew.html
 
